@@ -31,7 +31,9 @@ Tianyu Shi<sup>7✉</sup>
 
 </h4>
 </div>
-
+<p align='center'>
+<img width="600" alt="image" src='./workflow.png'>
+</p>
 
 ## 🚀 Abstract
 Prompt design critically affects the performance of large language models (LLMs). Existing optimization methods often rely on single-agent heuristics, which lack diversity, collaboration, and robustness.  
