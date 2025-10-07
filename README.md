@@ -66,7 +66,38 @@ Output: Optimized prompt
 git clone https://github.com/xxx/MAPGD.git
 cd MAPGD
 ```
+### 2. Run experiments with a specific task
 
+To choose different task sets, use the --task argument.
+For example:
+```
+python experiment_baseline.py --task echo
+python experiment_baseline.py --task aqua
+```
+Detailed settings can be customized in the configuration files:
+
+echo_config.py — for the ECHO task
+aqua_config.py — for the AQUA task
+
+## 📊 Dataset
+
+### 1. ECHO Dataset
+The ECHO dataset is derived from the following paper:
+```
+Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, and Grigorios Tsoumakas.
+Ethos: an online hate speech detection dataset.
+arXiv preprint arXiv:2006.08328
+, 2020.
+```
+### 2. AQUA Dataset
+
+The AQUA dataset comes from the following paper:
+```
+Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom.
+Program induction by rationale generation: Learning to solve and explain algebraic word problems.
+arXiv preprint arXiv:1705.04146
+, 2017.
+```
 ## 📖 Citation
 
 If you find our work useful, please consider citing:
