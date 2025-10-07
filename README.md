@@ -60,6 +60,12 @@ Iterative Optimization:
 
 Output: Optimized prompt
 ```
+## 🚀 How to Start
+### 1. Clone the repository
+```bash
+git clone https://github.com/xxx/MAPGD.git
+cd MAPGD
+
 ## 📖 Citation
 
 If you find our work useful, please consider citing:
