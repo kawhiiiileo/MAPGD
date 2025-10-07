@@ -17,13 +17,13 @@ Yunyan Zhang<sup>6</sup>,\
 Lewei He<sup>1✉</sup>,
 Tianyu Shi<sup>7✉</sup>
 
-<sup>1</sup>South China Normal University, Guangzhou, China  
-<sup>2</sup>Northwestern Polytechnical University, Xi'an, China  
-<sup>3</sup>University of Sydney, Sydney, Australia  
-<sup>4</sup>Shanghai Jiaotong University, Shanghai, China  
-<sup>5</sup>University of Macau, Macau, China  
-<sup>6</sup>Silicon Sapiens LLC, Jinan, China  
-<sup>7</sup>University of Toronto, Toronto, Canada  
+<sup>1</sup>South China Normal University
+<sup>2</sup>Northwestern Polytechnical University
+<sup>3</sup>University of Sydney
+<sup>4</sup>Shanghai Jiaotong University
+<sup>5</sup>University of Macau
+<sup>6</sup>Silicon Sapiens LLC
+<sup>7</sup>University of Toronto
 
 <p>
 <a href='https://arxiv.org/pdf/xxxx.xxxxx'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
