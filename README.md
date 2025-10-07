@@ -27,7 +27,6 @@ Tianyu Shi<sup>7✉</sup>
 
 <p>
 <a href='https://arxiv.org/pdf/xxxx.xxxxx'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
-<a href='https://github.com/xxx/MAPGD'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
 </p>
 
 </h4>
