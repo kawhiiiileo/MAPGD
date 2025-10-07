@@ -59,8 +59,7 @@ Iterative Optimization:
   5. Agents sync with best candidate
 
 Output: Optimized prompt
-
-
+```
 ## 📖 Citation
 
 If you find our work useful, please consider citing:
@@ -72,4 +71,5 @@ If you find our work useful, please consider citing:
   journal={arXiv preprint arXiv:xxxx.xxxxx},
   year={2025}
 }
+
 
