@@ -60,3 +60,16 @@ Iterative Optimization:
 
 Output: Optimized prompt
 
+
+## 📖 Citation
+
+If you find our work useful, please consider citing:
+
+```bibtex
+@article{mapgd2025,
+  title={MAPGD: Multi-Agent Prompt Gradient Descent for Collaborative Prompt Optimization},
+  author={Han, Yichen and Han, Yuhang and Liu, Bojun and Zhou, Zhengpeng and Liu, Guanyu and Zhang, Zeng and Yang, Yang and Wang, Wenli and Shi, Isaac N and Zhang, Yunyan and He, Lewei and Shi, Tianyu},
+  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  year={2025}
+}
+
