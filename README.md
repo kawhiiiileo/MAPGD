@@ -39,24 +39,25 @@ Tianyu Shi<sup>7✉</sup>
 Prompt design critically affects the performance of large language models (LLMs). Existing optimization methods often rely on single-agent heuristics, which lack diversity, collaboration, and robustness.  
 **MAPGD** introduces a multi-agent framework where each agent explores prompts from different perspectives, generates textual “gradients,” and collaboratively improves prompts via **beam search**, **semantic fusion**, and **bandit-based selection**.  
 This approach improves diversity, semantic directionality, and interpretability—offering a scalable and effective solution for real-world prompt engineering.
-## 🧩 Core Idea
+## 🧩 Core Features
 
-- **Multiple Agents** → Explore diverse semantic directions  
-- **Textual Gradients** → Semantic feedback analogous to numerical gradients  
-- **Gradient Fusion** → Merge and align multiple prompt edits  
-- **Beam Search** → Expand candidate prompt space efficiently  
-- **Bandit Selection** → Identify best prompts with minimal evaluation cost  
+- **Multi-Agent Exploration:** Agents specialize in instruction clarity, example selection, output format, style, or mathematical reasoning.  
+- **Textual Gradients:** Agents generate natural language pseudo-gradients akin to numerical gradients.  
+- **Gradient Coordination:** HCGC ensures intra-cluster compactness and inter-cluster separation of gradients.  
+- **Adaptive Weighting:** CAAW dynamically adjusts agent contributions based on historical performance.  
+- **Beam Search & Bandit Selection:** Efficiently expand candidate prompts and select the best ones.  
+
 ## ⚙️ System Workflow
 
 ```text
 Input: Initial prompt p0, datasets D_train / D_dev
 
 Iterative Optimization:
-  1. Agents propose textual gradients & edits
-  2. Gradients are clustered & fused
-  3. Candidate prompts expanded (beam + paraphrasing)
-  4. Bandit-based selection chooses top prompts
-  5. Agents sync with best candidate
+  1. Agents generate specialized textual gradients
+  2. HCGC clusters and fuses gradients
+  3. Prompt expander generates candidate prompts (beam + paraphrasing)
+  4. CAAW bandit-based selection chooses top candidates
+  5. Agents synchronize with best candidate
 
 Output: Optimized prompt
 ```
@@ -76,28 +77,32 @@ python experiment_baseline.py --task aqua
 ```
 Detailed settings can be customized in the configuration files:
 
-echo_config.py — for the ECHO task
-aqua_config.py — for the AQUA task
+Config files are located in the root folder for each task, e.g., echo_config.py, aqua_config.py.
+
+You can customize hyperparameters such as beam_size, max_iterations, or CAAW lambda directly in the config.
 
 ## 📊 Dataset
 
 ### 1. ECHO Dataset
-The ECHO dataset is derived from the following paper:
-```
-Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, and Grigorios Tsoumakas.
-Ethos: an online hate speech detection dataset.
-arXiv preprint arXiv:2006.08328
-, 2020.
-```
-### 2. AQUA Dataset
+| Task          | Dataset Description                                                                                   | Reference                                                                                                                                                                                          |
+| ------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ECHO**      | English online hate speech detection dataset, containing 997 annotated online comments.               | Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, and Grigorios Tsoumakas. *Ethos: An online hate speech detection dataset.* arXiv preprint arXiv:2006.08328, 2020.                               |
+| **AQUA**      | Algebraic word problems for program induction and step-by-step reasoning.                             | Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom. *Program induction by rationale generation: Learning to solve and explain algebraic word problems.* arXiv preprint arXiv:1705.04146, 2017. |
+| **GSM8k**     | Grade-school math problems requiring multi-step reasoning, widely used benchmark.                     | Cobbe, Karl et al. *Training verifiers to solve math word problems.* arXiv preprint arXiv:2110.14168, 2021.                                                                                        |
+| **SVAMP**     | Simple arithmetic word problems with linguistic variations, testing robustness to paraphrasing.       | Patel, Ananya et al. *SVAMP: A benchmark for arithmetic word problem solving.* arXiv preprint arXiv:2011.06770, 2020.                                                                              |
+| **LIAR**      | Short statements labeled with ground-truth veracity, used for fake news detection.                    | Wang, William Y. *“Liar, Liar Pants on Fire”: A new benchmark dataset for fake news detection.* ACL, 2017.                                                                                         |
+| **Jailbreak** | Multilingual prompts targeting jailbreak detection for LLMs, containing 1,306 examples.               | Custom annotated dataset (see Appendix in MAPGD paper).                                                                                                                                            |
+| **Ethos**     | English hate speech detection dataset, used for benchmarking multi-agent prompt optimization.         | Vidgen, Bertie et al. *Learning to detect harmful online content.* arXiv preprint arXiv:2004.08617, 2020.                                                                                          |
+| **Sarcasm**   | Arabic sarcasm detection dataset with 10,000 online comments labeled for presence/absence of sarcasm. | [Standard dataset reference, see MAPGD paper Appendix].                                                                                                                                            |
 
-The AQUA dataset comes from the following paper:
-```
-Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom.
-Program induction by rationale generation: Learning to solve and explain algebraic word problems.
-arXiv preprint arXiv:1705.04146
-, 2017.
-```
+## 🔧 Notes
+
+MAPGD supports both text classification and mathematical reasoning tasks.
+
+Multi-agent collaboration is enabled by default, and HCGC+CAAW fusion ensures semantic consistency and adaptive weighting.
+
+The framework allows easy integration of new agents or tasks by extending SpecializedPromptAgent and updating TASK_AGENT_MAPPING.
+
 ## 📖 Citation
 
 If you find our work useful, please consider citing:
@@ -109,5 +114,6 @@ If you find our work useful, please consider citing:
   journal={arXiv preprint arXiv:xxxx.xxxxx},
   year={2025}
 }
+
 
 
