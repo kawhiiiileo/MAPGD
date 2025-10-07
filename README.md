@@ -32,7 +32,7 @@ Tianyu Shi<sup>7✉</sup>
 </h4>
 </div>
 <p align='center'>
-<img width="600" alt="image" src='./workflow.png'>
+<img width="600" alt="image" src='./WechatIMG378.jpg'>
 </p>
 
 ## 🚀 Abstract
