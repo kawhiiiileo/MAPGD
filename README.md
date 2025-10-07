@@ -94,7 +94,6 @@ You can customize hyperparameters such as beam_size, max_iterations, or CAAW lam
 | **Jailbreak** | Multilingual prompts targeting jailbreak detection for LLMs, containing 1,306 examples.               | Xinyue Shen, Zeyuan Chen, Michael Backes, Yun Shen, and Yang Zhang. *“Do Anything Now”: Characterizing and evaluating in-the-wild jailbreak prompts on large language models.* Proc. of ACM CCS, 2024, 1671–1685. |
 | **Ethos**     | English hate speech detection dataset, used for benchmarking multi-agent prompt optimization.         | Vidgen, Bertie et al. *Learning to detect harmful online content.* arXiv preprint arXiv:2004.08617, 2020.                                                                                                         |
 | **Sarcasm**   | Arabic sarcasm detection dataset with 10,000 online comments labeled for presence/absence of sarcasm. | Ibrahim Abu Farha and Walid Magdy. *From Arabic sentiment analysis to sarcasm detection: The ArSarcasm dataset.* The 4th Workshop on Open-Source Arabic Corpora and Processing Tools, ELRA, 2020, 32–39.          |
-                                                                                                                                        |
 
 ## 🔧 Notes
 
