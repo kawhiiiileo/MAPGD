@@ -26,7 +26,7 @@ Tianyu Shi<sup>7✉</sup>
 <sup>7</sup>University of Toronto
 
 <p>
-<a href='https://arxiv.org/pdf/xxxx.xxxxx'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
+<a href='https://arxiv.org/pdf/2509.11361'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 </p>
 
 </h4>
@@ -108,11 +108,14 @@ The framework allows easy integration of new agents or tasks by extending Specia
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{mapgd2025,
-  title={MAPGD: Multi-Agent Prompt Gradient Descent for Collaborative Prompt Optimization},
-  author={Han, Yichen and Han, Yuhang and Liu, Bojun and Zhou, Zhengpeng and Liu, Guanyu and Zhang, Zeng and Yang, Yang and Wang, Wenli and Shi, Isaac N and Zhang, Yunyan and He, Lewei and Shi, Tianyu},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2025}
+@misc{han2025mapgdmultiagentpromptgradient,
+      title={MAPGD: Multi-Agent Prompt Gradient Descent for Collaborative Prompt Optimization}, 
+      author={Yichen Han and Yuhang Han and Bojun Liu and Zhengpeng Zhou and Guanyu Liu and Zeng Zhang and Yang Yang and Wenli Wang and Isaac N Shi and Yunyan Zhang and Lewei He and Tianyu Shi},
+      year={2025},
+      eprint={2509.11361},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2509.11361}, 
 }
 
 
