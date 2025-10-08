@@ -64,7 +64,7 @@ Output: Optimized prompt
 ## 🚀 How to Start
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/xxx/MAPGD.git
+git clone https://github.com/kawhiiiileo/MAPGD.git
 cd MAPGD
 ```
 ### 2. Run experiments with a specific task
