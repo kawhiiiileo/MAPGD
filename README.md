@@ -4,21 +4,21 @@
 
 <h4 align="center"> 
 
-Yichen Han<sup>1</sup>,
-Yuhang Han<sup>2</sup>,
+Yichen Han<sup>1,*</sup>,
+Yuhang Han<sup>2,*</sup>,
 Bojun Liu<sup>3</sup>,
 Zhengpeng Zhou<sup>4</sup>,
-Guanyu Liu<sup>5</sup>,\
+Guanyu Liu<sup>5</sup>,
 Zeng Zhang<sup>1</sup>,
 Yang Yang<sup>6</sup>,
 Wenli Wang<sup>6</sup>,
 Isaac N Shi<sup>6</sup>,
-Yunyan Zhang<sup>6</sup>,\
+Yunyan Zhang<sup>6</sup>,
 Lewei He<sup>1✉</sup>,
 Tianyu Shi<sup>7✉</sup>
 
 <sup>1</sup>South China Normal University
-<sup>2</sup>Northwestern Polytechnical University
+<sup>2</sup>Shanghai Jiao Tong University
 <sup>3</sup>University of Sydney
 <sup>4</sup>Shanghai Jiaotong University
 <sup>5</sup>University of Macau
