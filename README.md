@@ -2,28 +2,36 @@
 
 <h1> MAPGD: Multi-Agent Prompt Gradient Descent for Collaborative Prompt Optimization </h1>
 
-<h4 align="center"> 
+<h4 align="center">
+  Yichen Han<sup>1,*</sup>,
+  Yuhang Han<sup>2,*</sup>,
+  Bojun Liu<sup>3</sup>,
+  Zhengpeng Zhou<sup>4</sup>,
+  Guanyu Liu<sup>5</sup>,
+  Zeng Zhang<sup>1</sup>,
+  Yang Yang<sup>6</sup>,
+  Wenli Wang<sup>6</sup>,
+  Isaac N Shi<sup>6</sup>,
+  Yunyan Zhang<sup>6</sup>,
+  Lewei He<sup>1✉</sup>,
+  Tianyu Shi<sup>7✉</sup>
+</h4>
 
-Yichen Han<sup>1,*</sup>,
-Yuhang Han<sup>2,*</sup>,
-Bojun Liu<sup>3</sup>,
-Zhengpeng Zhou<sup>4</sup>,
-Guanyu Liu<sup>5</sup>,
-Zeng Zhang<sup>1</sup>,
-Yang Yang<sup>6</sup>,
-Wenli Wang<sup>6</sup>,
-Isaac N Shi<sup>6</sup>,
-Yunyan Zhang<sup>6</sup>,
-Lewei He<sup>1✉</sup>,
-Tianyu Shi<sup>7✉</sup>
+<p align="center">
+  <sup>1</sup>South China Normal University<br>
+  <sup>2</sup>Shanghai Jiao Tong University<br>
+  <sup>3</sup>University of Sydney<br>
+  <sup>4</sup>Shanghai Jiao Tong University<br>
+  <sup>5</sup>University of Macau<br>
+  <sup>6</sup>Silicon Sapiens LLC<br>
+  <sup>7</sup>University of Toronto
+</p>
 
-<sup>1</sup>South China Normal University
-<sup>2</sup>Shanghai Jiao Tong University
-<sup>3</sup>University of Sydney
-<sup>4</sup>Shanghai Jiaotong University
-<sup>5</sup>University of Macau
-<sup>6</sup>Silicon Sapiens LLC
-<sup>7</sup>University of Toronto
+<p align="center">
+  * These authors contributed equally.<br>
+  ✉ Corresponding authors.
+</p>
+
 
 <p>
 <a href='https://arxiv.org/pdf/2509.11361'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
