@@ -18,19 +18,20 @@
 </h4>
 
 <p align="center">
-  <sup>1</sup>South China Normal University<br>
-  <sup>2</sup>Shanghai Jiao Tong University<br>
-  <sup>3</sup>University of Sydney<br>
-  <sup>4</sup>Shanghai Jiao Tong University<br>
-  <sup>5</sup>University of Macau<br>
-  <sup>6</sup>Silicon Sapiens LLC<br>
+  <sup>1</sup>South China Normal University &nbsp;&nbsp;
+  <sup>2</sup>Shanghai Jiao Tong University &nbsp;&nbsp;
+  <sup>3</sup>University of Sydney &nbsp;&nbsp;
+  <sup>4</sup>Shanghai Jiao Tong University &nbsp;&nbsp;
+  <sup>5</sup>University of Macau &nbsp;&nbsp;
+  <sup>6</sup>Silicon Sapiens LLC &nbsp;&nbsp;
   <sup>7</sup>University of Toronto
 </p>
 
 <p align="center">
-  * These authors contributed equally.<br>
+  * These authors contributed equally. &nbsp;&nbsp;
   ✉ Corresponding authors.
 </p>
+
 
 
 <p>
